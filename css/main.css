@@ -251,17 +251,22 @@ main {
 }
 
 .section__suscripciones--payicon {
-  width: 60%;
+  width: 12rem;
 }
 
 .section__suscripciones--payicon img {
   width: 100%;
 }
 
+.section__pago {
+  padding-bottom: 1rem;
+}
+
 .section__pago--form {
   background-color: #2b2d2e;
-  border-radius: 2rem;
+  border-radius: 1rem;
   color: whitesmoke;
+  padding: 1rem 1rem;
 }
 
 .section__pago--form .row {
@@ -277,11 +282,11 @@ main {
 }
 
 .section__pago--form .section__contacto--tc {
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
 .section__pago--form .section__contacto--file {
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
 .section__pago--form .section__contacto--file i {
@@ -506,5 +511,33 @@ main {
   }
   .section__contacto--redes {
     width: 15rem;
+  }
+  .section__suscripciones--containerpayment {
+    gap: 10px;
+  }
+  .section__suscripciones--payment {
+    padding: 1rem 0;
+  }
+  .section__suscripciones--payment h3 {
+    font-size: 12px;
+    color: whitesmoke;
+  }
+  .section__suscripciones--payicon {
+    width: 7rem;
+  }
+  .section__suscripciones--payicon img {
+    width: 100%;
+  }
+  .section__pago {
+    padding-bottom: 1rem;
+  }
+  .section__pago--formtop {
+    padding-top: 1rem;
+  }
+  .section__contacto--file {
+    padding-bottom: 2rem;
+  }
+  .section__contacto--file i {
+    font-size: 18px;
   }
 }

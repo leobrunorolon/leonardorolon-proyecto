@@ -1,8 +1,12 @@
 // section pagos
+.section__pago {
+    padding-bottom: 1rem;
+}
 .section__pago--form {
     background-color: $color-terciario;
-    border-radius: 2rem;
+    border-radius: 1rem;
     color: whitesmoke;
+    padding: 1rem 1rem;
     .row {
         padding: 1rem 0;
         text-align: left;
@@ -14,10 +18,10 @@
         justify-content: center;
     }
     .section__contacto--tc {
-        padding-bottom: 2rem;
+        padding-bottom: 3rem;
     }
     .section__contacto--file {
-        padding-bottom: 2rem;
+        padding-bottom: 3rem;
         i {
             font-size: 30px;
         }

@@ -57,4 +57,32 @@
     .section__contacto--redes {
         width: 15rem;
     }
-}
+    .section__suscripciones--containerpayment {
+        gap: 10px;
+    }
+    .section__suscripciones--payment {
+        padding: 1rem 0;
+        h3 {
+            font-size: 12px;
+            color: whitesmoke;
+        }
+    }
+    .section__suscripciones--payicon {
+        width: 7rem;
+        img {
+            width: 100%;
+        }
+    }
+    .section__pago {
+        padding-bottom: 1rem;
+    }
+    .section__pago--formtop {
+        padding-top: 1rem;
+    }
+    .section__contacto--file {
+        padding-bottom: 2rem;
+        i {
+            font-size: 18px;
+        }
+    }
+}   
