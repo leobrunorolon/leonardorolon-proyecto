@@ -1,0 +1,22 @@
+// Reseteo
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// letras para el sitio
+body {
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}
+.header {
+    background: hsla(204, 69%, 53%, 1);
+        background: linear-gradient(90deg, hsla(204, 69%, 53%, 1) 54%, hsla(0, 0%, 100%, 0.7) 100%);
+        background: -moz-linear-gradient(90deg, hsla(204, 69%, 53%, 1) 54%, hsla(0, 0%, 100%, 0.7) 100%);
+        background: -webkit-linear-gradient(90deg, hsla(204, 69%, 53%, 1) 54%, hsla(0, 0%, 100%, 0.7) 100%);
+}
+main {
+    background: rgb(51,152,218);
+    background: linear-gradient(180deg, rgba(51,152,218,1) 0%, rgba(25,42,85,1) 45%, rgba(1,19,31,1) 100%);
+
+}

@@ -1,0 +1,54 @@
+
+@media (max-width: 768px) {
+    .hero__img {
+        width: 170px !important;
+    }
+    .nube {
+        height: 130px;
+        width: 200px;
+    }
+    .hero__container {
+        background-position: unset;
+    }
+    .section__titulos--1 {
+        font-size: 35px;
+    }
+    .section__card---img {
+        object-fit: contain;
+        width: 100% !important;
+        display: flex;
+        justify-content: center !important;
+    }
+    .section__card---img img{
+        object-fit: contain;
+        background-size: cover !important;
+    }
+    .section__galeria--container {
+        padding-bottom: 1rem;
+        justify-content: center;
+    }
+    .section__galeria--img{
+        width: 90% !important;
+    }
+    .section__galeria--img img{
+        height: 100%;
+        width: 100%;
+    }
+    .section__voucher {
+        .section__voucher--card {
+            padding-bottom: 2rem;
+        }
+    }
+    .section__promociones {
+        .section__promociones--card {
+            padding-bottom: 2rem !important;
+        }
+    }
+    .section__contacto--container-redes {
+       display: flex;
+       justify-content: center;
+    }
+    .section__contacto--redes {
+        width: 15rem;
+    }
+}

@@ -1,0 +1,504 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: whitesmoke;
+}
+
+.header {
+  background: #3498da;
+  background: linear-gradient(90deg, #3498da 54%, rgba(255, 255, 255, 0.7) 100%);
+  background: -moz-linear-gradient(90deg, #3498da 54%, rgba(255, 255, 255, 0.7) 100%);
+  background: -webkit-linear-gradient(90deg, #3498da 54%, rgba(255, 255, 255, 0.7) 100%);
+}
+
+main {
+  background: #3398da;
+  background: linear-gradient(180deg, #3398da 0%, #192a55 45%, #01131f 100%);
+}
+
+.menu__estilo {
+  background-color: #3398DA !important;
+}
+
+.navbar__icono {
+  color: whitesmoke !important;
+  padding-right: 10px;
+}
+
+/*modificacion de imagen hero*/
+.hero__container {
+  background-image: url(https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/11/27174203/PARA-TI-JUJUY-4-News-GENTILEZA-CARAVANA-DE-LLAMAS-20181130.jpg);
+  background-attachment: fixed;
+  object-fit: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  height: 100vh;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__container .hero__img {
+  width: 280px;
+  z-index: 100;
+}
+
+.hero__container .hero__img img {
+  width: 100%;
+}
+
+/*se elimina prueba each hero*/
+/*prueba each con mapa cambio de imagen hero*/
+/*tambien se podria compartir estilos con extend @extend .hero__container*/
+.hero__container--jujuy {
+  background-image: url(https://i.pinimg.com/originals/28/16/f6/2816f692dc4888bad749c2bcad818fda.jpg);
+}
+
+.hero__container--promociones {
+  background-image: url(https://farm4.staticflickr.com/3696/10712094225_94eef4333f_k.jpg);
+}
+
+.hero__container--suscripciones {
+  background-image: url(https://noticiasambientales.com/wp-content/uploads/2019/11/argentina_yungas_4864546858645684.jpg);
+}
+
+.hero__container--pago {
+  background-image: url(https://i.pinimg.com/originals/1c/97/f7/1c97f76f480856ac66d8da87822b807d.jpg);
+}
+
+.hero__container--contacto {
+  background-image: url(http://revistabamag.com.ar/imagenes/2018/04/La-Puna-juje%C3%B1a-en-clave-localport.jpg);
+}
+
+.header__gramaje {
+  background: #3498da;
+  background: linear-gradient(90deg, #3498da 54%, rgba(255, 255, 255, 0.7) 100%);
+  background: -moz-linear-gradient(90deg, #3498da 54%, rgba(255, 255, 255, 0.7) 100%);
+  background: -webkit-linear-gradient(90deg, #3498da 54%, rgba(255, 255, 255, 0.7) 100%);
+}
+
+.nube {
+  background-image: url(../nube/cloud.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 200px;
+  width: 300px;
+}
+
+.section__titulos {
+  color: whitesmoke;
+  text-align: center;
+  font-weight: bold;
+  padding: 1rem 0;
+}
+
+.section__titulos--1 {
+  color: #d1ca44;
+  text-align: center;
+  font-weight: bold;
+  padding: 1rem 0;
+  font-size: 50px;
+  font-family: 'Merienda', cursive;
+}
+
+.section__subtitulos {
+  color: #2b2d2e;
+  font-size: 30px;
+  text-align: left;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.section__index--card {
+  padding-bottom: 2rem;
+}
+
+.section__card--2 {
+  background-image: url(https://img.freepik.com/vector-gratis/hermoso-fondo-nubes-diseno-cielo-azul_1017-25501.jpg?size=626&ext=jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section__card--2 .card-header {
+  font-size: 30px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.section__video-container {
+  margin-top: 2rem;
+}
+
+.footer {
+  width: 100%;
+  padding: 1rem 3rem;
+  background-color: #01131F;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__p {
+  color: whitesmoke;
+  font-size: 15px;
+}
+
+.footer__icon a {
+  font-size: 20px;
+  color: snow;
+  text-decoration: none;
+}
+
+.section__comida {
+  background-image: url(../imagen/fondo1.jpg);
+  margin: 2rem 0;
+  padding: 30px 0;
+  border-radius: 1rem;
+}
+
+.section__dormir {
+  background-image: url(../imagen/fondo2.jpg);
+  margin: 2rem 0;
+  padding: 30px 0;
+  border-radius: 1rem;
+}
+
+.section__formulario {
+  text-align: center;
+}
+
+.section__formulario input {
+  background-color: black;
+  color: white;
+}
+
+.section__formulario--estrella {
+  color: #F6F20D;
+}
+
+.section__lugares {
+  margin: 2rem 0;
+}
+
+.section__galeria--container {
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section__galeria--img img {
+  object-fit: contain;
+  height: 190px;
+}
+
+.section__carrusel .section__carrusel--img {
+  object-fit: contain;
+}
+
+.section__grid--container {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: repeat(7, 2fr);
+  grid-gap: 5px;
+  grid-column-start: "tit";
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  background-size: contain;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe04lQp5AdqNBsEaf652ww7mncmHYmlxTuaA&usqp=CAU);
+  border-radius: 1rem;
+}
+
+.section__grid--container .boton {
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.section__grid--container button {
+  width: 100%;
+  font-size: bold;
+}
+
+.section__suscripciones--containerpayment {
+  background-image: url(https://lh5.googleusercontent.com/-jl7ylJq1Rxk/TW_s3SCIuGI/AAAAAAAAABo/A0fnG0kLYvk/s1600/IMG_1214+PDS.jpg);
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 20px;
+}
+
+.section__suscripciones--payment {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.section__suscripciones--payment h3 {
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.section__suscripciones--payicon {
+  width: 60%;
+}
+
+.section__suscripciones--payicon img {
+  width: 100%;
+}
+
+.section__pago--form {
+  background-color: #2b2d2e;
+  border-radius: 2rem;
+  color: whitesmoke;
+}
+
+.section__pago--form .row {
+  padding: 1rem 0;
+  text-align: left;
+}
+
+.section__pago--form .section__pago--comentario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section__pago--form .section__contacto--tc {
+  padding-bottom: 2rem;
+}
+
+.section__pago--form .section__contacto--file {
+  padding-bottom: 2rem;
+}
+
+.section__pago--form .section__contacto--file i {
+  font-size: 30px;
+}
+
+.section__pago--form .section__contacto--button {
+  display: flex;
+  align-items: center;
+}
+
+.section__pago--form .section__contacto--button .boton {
+  width: 100px !important;
+}
+
+.section__contacto--container {
+  background-color: #2b2d2e;
+  border-radius: 1rem;
+  padding: 2rem 0;
+  color: whitesmoke;
+}
+
+.section__contacto--map {
+  width: 100%;
+}
+
+.section__contacto--grid {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+  grid-column-start: 1;
+  gap: 10px;
+}
+
+/*each generacion redes sociales linea 312*/
+.facebook-logo {
+  background-image: url("../logo/facebook.png");
+}
+
+.instagram-logo {
+  background-image: url("../logo/instagram.png");
+}
+
+.pinteres-logo {
+  background-image: url("../logo/pinteres.png");
+}
+
+.whatsapp-logo {
+  background-image: url("../logo/whatsapp.png");
+}
+
+.section__contacto--container-redes {
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section__contacto--redes {
+  width: 20rem;
+  box-shadow: 0 0 1rem whitesmoke;
+}
+
+/* for ejemplo paleta de colores*/
+.section__contacto--paleta {
+  border-radius: 1rem;
+  display: flex;
+  background-color: white;
+}
+
+.section__contacto--paleta .color {
+  height: 120px;
+  width: 8.33333% !important;
+}
+
+/*no funcina metodo col-12 para lo que quiero hacer, ya que los valores no tiene un %unico todos varias por ello varian los tamaños*/
+.color-1 {
+  width: 8.33333%;
+}
+
+.color-2 {
+  width: 16.66667%;
+}
+
+.color-3 {
+  width: 25%;
+}
+
+.color-4 {
+  width: 33.33333%;
+}
+
+.color-5 {
+  width: 41.66667%;
+}
+
+.color-6 {
+  width: 50%;
+}
+
+.color-7 {
+  width: 58.33333%;
+}
+
+.color-8 {
+  width: 66.66667%;
+}
+
+.color-9 {
+  width: 75%;
+}
+
+.color-10 {
+  width: 83.33333%;
+}
+
+.color-11 {
+  width: 91.66667%;
+}
+
+.color-12 {
+  width: 100%;
+}
+
+.color:nth-child(1) {
+  background-color: #1414ff !important;
+}
+
+.color:nth-child(2) {
+  background-color: #2929ff !important;
+}
+
+.color:nth-child(3) {
+  background-color: #3d3dff !important;
+}
+
+.color:nth-child(4) {
+  background-color: #5252ff !important;
+}
+
+.color:nth-child(5) {
+  background-color: #6666ff !important;
+}
+
+.color:nth-child(6) {
+  background-color: #7a7aff !important;
+}
+
+.color:nth-child(7) {
+  background-color: #8f8fff !important;
+}
+
+.color:nth-child(8) {
+  background-color: #a3a3ff !important;
+}
+
+.color:nth-child(9) {
+  background-color: #b8b8ff !important;
+}
+
+.color:nth-child(10) {
+  background-color: #ccccff !important;
+}
+
+.color:nth-child(11) {
+  background-color: #e0e0ff !important;
+}
+
+.color:nth-child(12) {
+  background-color: #f5f5ff !important;
+}
+
+@media (max-width: 768px) {
+  .hero__img {
+    width: 170px !important;
+  }
+  .nube {
+    height: 130px;
+    width: 200px;
+  }
+  .hero__container {
+    background-position: unset;
+  }
+  .section__titulos--1 {
+    font-size: 35px;
+  }
+  .section__card---img {
+    object-fit: contain;
+    width: 100% !important;
+    display: flex;
+    justify-content: center !important;
+  }
+  .section__card---img img {
+    object-fit: contain;
+    background-size: cover !important;
+  }
+  .section__galeria--container {
+    padding-bottom: 1rem;
+    justify-content: center;
+  }
+  .section__galeria--img {
+    width: 90% !important;
+  }
+  .section__galeria--img img {
+    height: 100%;
+    width: 100%;
+  }
+  .section__voucher .section__voucher--card {
+    padding-bottom: 2rem;
+  }
+  .section__promociones .section__promociones--card {
+    padding-bottom: 2rem !important;
+  }
+  .section__contacto--container-redes {
+    display: flex;
+    justify-content: center;
+  }
+  .section__contacto--redes {
+    width: 15rem;
+  }
+}

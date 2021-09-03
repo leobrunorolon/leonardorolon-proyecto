@@ -1,0 +1,70 @@
+// hero
+
+.menu__estilo {
+    background-color: $fondo-primario !important;
+}
+
+.navbar__icono {
+    color: $color-primario !important;
+    padding-right: 10px;
+}
+/*modificacion de imagen hero*/
+.hero__container {
+    background-image: url(https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/11/27174203/PARA-TI-JUJUY-4-News-GENTILEZA-CARAVANA-DE-LLAMAS-20181130.jpg);
+    background-attachment: fixed;
+    object-fit: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .hero__img {
+        width: 280px;
+        z-index: 100;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+// each prueba para la creacion de clases hero(each prueba ver en style.css linea 56)
+/*se elimina prueba each hero*/
+
+$herostyle: compartir;
+// each con mapa
+/*prueba each con mapa cambio de imagen hero*/
+/*tambien se podria compartir estilos con extend @extend .hero__container*/
+$heroprueba: (
+    jujuy: url(https://i.pinimg.com/originals/28/16/f6/2816f692dc4888bad749c2bcad818fda.jpg),
+    promociones: url(https://farm4.staticflickr.com/3696/10712094225_94eef4333f_k.jpg),
+    suscripciones: url(https://noticiasambientales.com/wp-content/uploads/2019/11/argentina_yungas_4864546858645684.jpg),
+    pago: url(https://i.pinimg.com/originals/1c/97/f7/1c97f76f480856ac66d8da87822b807d.jpg),
+    contacto: url(http://revistabamag.com.ar/imagenes/2018/04/La-Puna-juje%C3%B1a-en-clave-localport.jpg)
+);
+
+@each $key, $value in $heroprueba {
+    .hero__container--#{$key} {
+    background-image: $value;
+    }
+}
+
+// error al compilar gramaje
+.header__gramaje {
+    background: hsla(204, 69%, 53%, 1);
+    background: linear-gradient(90deg, hsla(204, 69%, 53%, 1) 54%, hsla(0, 0%, 100%, 0.7) 100%);
+    background: -moz-linear-gradient(90deg, hsla(204, 69%, 53%, 1) 54%, hsla(0, 0%, 100%, 0.7) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(204, 69%, 53%, 1) 54%, hsla(0, 0%, 100%, 0.7) 100%);
+}
+
+.nube {
+    background-image: url(../nube/cloud.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 200px;
+    width: 300px;
+}

@@ -1,0 +1,37 @@
+// section jujuy
+.section__comida {
+    background-image: url(../imagen/fondo1.jpg);
+    margin: 2rem 0;
+    padding: 30px 0;
+    border-radius: 1rem;
+}
+.section__dormir {
+    background-image: url(../imagen/fondo2.jpg);
+    margin: 2rem 0;
+    padding: 30px 0;
+    border-radius: 1rem;
+}
+.section__formulario {
+    text-align: center;
+    input {
+        background-color: black;
+        color: white;
+
+    }
+}
+
+.section__formulario--estrella {
+    color: #F6F20D;
+}
+.section__lugares {
+    margin: 2rem 0;
+}
+.section__galeria--container {
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.section__galeria--img img{
+    object-fit: contain;
+    height: 190px;
+}

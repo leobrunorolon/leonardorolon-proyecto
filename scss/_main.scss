@@ -1,0 +1,42 @@
+// index
+// section 1
+.section__titulos {
+    color: $color-primario;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+.section__titulos--1{
+    color: $color-secundario;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem 0;
+    font-size: 50px;
+    font-family: 'Merienda', cursive;
+}
+.section__subtitulos {
+    color: $color-terciario;
+    font-size: 30px;
+    text-align: left;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+// index card
+.section__index--card {
+    padding-bottom: 2rem;
+}
+.section__card--2{
+    background-image: url(https://img.freepik.com/vector-gratis/hermoso-fondo-nubes-diseno-cielo-azul_1017-25501.jpg?size=626&ext=jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .card-header {
+        font-size: 30px;
+        font-weight: bold;
+        color: $color-primario;
+    }
+}
+.section__video-container {
+    margin-top: 2rem;
+}
+

@@ -1,0 +1,51 @@
+// section suscripcion grid
+.section__grid--container {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(7, 2fr);
+    grid-gap: 5px;
+    grid-column-start: "tit";
+    text-align: center;
+    font-weight: bold;
+    color:black;
+    background-size: contain;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe04lQp5AdqNBsEaf652ww7mncmHYmlxTuaA&usqp=CAU);
+    border-radius: 1rem;
+    .boton {
+        text-align: center;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    button {
+        width: 100%;
+        font-size: bold;
+    }
+    
+}
+
+// metodos de pago
+.section__suscripciones--containerpayment {
+    background-image: url(https://lh5.googleusercontent.com/-jl7ylJq1Rxk/TW_s3SCIuGI/AAAAAAAAABo/A0fnG0kLYvk/s1600/IMG_1214+PDS.jpg);
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 20px;
+
+}
+.section__suscripciones--payment {
+    text-align: center;
+    padding: 2rem 0;
+    h3 {
+        font-size: 20px;
+        color: whitesmoke;
+    }
+}
+.section__suscripciones--payicon {
+    width: 60%;
+    img {
+        width: 100%;
+    }
+}
