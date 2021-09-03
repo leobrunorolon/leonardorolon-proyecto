@@ -455,14 +455,20 @@ main {
 
 @media (max-width: 768px) {
   .hero__img {
-    width: 170px !important;
+    width: 200px !important;
   }
   .nube {
-    height: 130px;
+    height: 145px;
     width: 200px;
   }
+  .footer {
+    padding: 1rem 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
   .hero__container {
-    background-position: unset;
+    background-position: center;
   }
   .section__titulos--1 {
     font-size: 35px;
