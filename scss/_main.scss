@@ -21,6 +21,9 @@
     font-weight: bold;
     padding-bottom: 1rem;
 }
+.section__titulos--container {
+    background-color: #333;
+}
 // index card
 .section__index--card {
     padding-bottom: 2rem;
@@ -39,4 +42,24 @@
 .section__video-container {
     margin-top: 2rem;
 }
-
+/*info*/
+.section__info {
+    padding-top: 2rem;
+}
+.section__info--container {
+    background-color: #333;
+    padding: 2rem 0;
+    color: whitesmoke;
+    border-radius: 2rem;
+}
+.section__info--button{
+    background-color: teal !important;
+    border-radius: 1rem;
+    width: 100%;
+    color: $color-primario;
+    font-size: 20px;
+}
+.section__info--accordion .accordion-body{
+    background-color: teal !important;
+    border-radius: 1rem;
+}

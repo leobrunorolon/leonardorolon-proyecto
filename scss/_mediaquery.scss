@@ -76,6 +76,11 @@
     .section__pago--formtop {
         padding-top: 1rem;
     }
+    .section__pago--payicon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
     .section__contacto--file {
         padding-bottom: 2rem;
         i {

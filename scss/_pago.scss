@@ -2,6 +2,13 @@
 .section__pago {
     padding-bottom: 1rem;
 }
+.section__pago--payicon {
+    display: flex;
+    justify-content: space-between;
+    .section__pago--payicontainer img {
+        width: 40vh;
+    }
+}
 .section__pago--form {
     background-color: $color-terciario;
     border-radius: 1rem;

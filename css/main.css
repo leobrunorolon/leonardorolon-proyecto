@@ -26,6 +26,17 @@ main {
   background-color: #3398DA !important;
 }
 
+.menu__estilo li a {
+  color: whitesmoke;
+}
+
+.menu__estilo li a:hover {
+  background-color: #3398DA !important;
+  color: whitesmoke;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .navbar__icono {
   color: whitesmoke !important;
   padding-right: 10px;
@@ -111,11 +122,15 @@ main {
 }
 
 .section__subtitulos {
-  color: #2b2d2e;
+  color: #333;
   font-size: 30px;
   text-align: left;
   font-weight: bold;
   padding-bottom: 1rem;
+}
+
+.section__titulos--container {
+  background-color: #333;
 }
 
 .section__index--card {
@@ -137,6 +152,31 @@ main {
 
 .section__video-container {
   margin-top: 2rem;
+}
+
+/*info*/
+.section__info {
+  padding-top: 2rem;
+}
+
+.section__info--container {
+  background-color: #333;
+  padding: 2rem 0;
+  color: whitesmoke;
+  border-radius: 2rem;
+}
+
+.section__info--button {
+  background-color: teal !important;
+  border-radius: 1rem;
+  width: 100%;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.section__info--accordion .accordion-body {
+  background-color: teal !important;
+  border-radius: 1rem;
 }
 
 .footer {
@@ -250,20 +290,21 @@ main {
   color: whitesmoke;
 }
 
-.section__suscripciones--payicon {
-  width: 12rem;
-}
-
-.section__suscripciones--payicon img {
-  width: 100%;
-}
-
 .section__pago {
   padding-bottom: 1rem;
 }
 
+.section__pago--payicon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section__pago--payicon .section__pago--payicontainer img {
+  width: 40vh;
+}
+
 .section__pago--form {
-  background-color: #2b2d2e;
+  background-color: #333;
   border-radius: 1rem;
   color: whitesmoke;
   padding: 1rem 1rem;
@@ -303,7 +344,7 @@ main {
 }
 
 .section__contacto--container {
-  background-color: #2b2d2e;
+  background-color: #333;
   border-radius: 1rem;
   padding: 2rem 0;
   color: whitesmoke;
@@ -530,6 +571,11 @@ main {
   }
   .section__pago--formtop {
     padding-top: 1rem;
+  }
+  .section__pago--payicon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .section__contacto--file {
     padding-bottom: 2rem;

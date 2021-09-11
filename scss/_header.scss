@@ -3,7 +3,15 @@
 .menu__estilo {
     background-color: $fondo-primario !important;
 }
-
+.menu__estilo li a{
+    color: $color-primario;
+}
+.menu__estilo li a:hover {
+    background-color: #3398DA !important;
+    color: $color-primario;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
 .navbar__icono {
     color: $color-primario !important;
     padding-right: 10px;
