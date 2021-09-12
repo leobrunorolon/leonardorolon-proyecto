@@ -4,13 +4,13 @@
     color: $color-primario;
     text-align: center;
     font-weight: bold;
-    padding: 1rem 0;
+    padding: 0 0 1rem 0;
 }
 .section__titulos--1{
     color: $color-secundario;
     text-align: center;
     font-weight: bold;
-    padding: 1rem 0;
+    padding: 1rem 0 0 0;
     font-size: 50px;
     font-family: 'Merienda', cursive;
 }
@@ -29,14 +29,25 @@
     padding-bottom: 2rem;
 }
 .section__card--2{
-    background-image: url(https://img.freepik.com/vector-gratis/hermoso-fondo-nubes-diseno-cielo-azul_1017-25501.jpg?size=626&ext=jpg);
+    background-image: url(https://us.123rf.com/450wm/denisbelitsky/denisbelitsky1609/denisbelitsky160900015/65611020-v%C3%ADa-l%C3%A1ctea-y-la-luz-de-color-rosa-en-las-monta%C3%B1as-noche-paisaje-colorido-cielo-estrellado-con-colina.jpg?ver=6);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 1rem !important;
     .card-header {
         font-size: 30px;
         font-weight: bold;
         color: $color-primario;
+    }
+}
+.section__card--2img {
+    background-image: url(https://i.pinimg.com/550x/20/c8/66/20c866c639dcb489e21e8a7c6a089a5d.jpg);
+        a{
+            text-decoration: none;
+            color: $color-primario;
+        }
+    a:hover {
+        color: cadetblue;
     }
 }
 .section__video-container {
@@ -44,22 +55,22 @@
 }
 /*info*/
 .section__info {
-    padding-top: 2rem;
+    padding: 1rem 0 2rem 0;
 }
 .section__info--container {
-    background-color: #333;
+    background-color: $color-terciario;
     padding: 2rem 0;
-    color: whitesmoke;
+    color: $color-primario;
     border-radius: 2rem;
 }
 .section__info--button{
-    background-color: teal !important;
+    background-color: $fondo-secundario !important;
     border-radius: 1rem;
     width: 100%;
     color: $color-primario;
-    font-size: 20px;
+    font-size: 1.6rem;
 }
 .section__info--accordion .accordion-body{
-    background-color: teal !important;
+    background-color: $fondo-secundario !important;
     border-radius: 1rem;
 }

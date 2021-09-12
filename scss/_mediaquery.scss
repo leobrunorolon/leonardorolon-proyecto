@@ -1,12 +1,12 @@
 
 @media (max-width: 768px) {
-    .hero__img {
-        width: 200px !important;
-    }
-    .nube {
-        height: 145px;
-        width: 200px;
-    }
+    // .hero__img {
+    //     width: 200px !important;
+    // }
+    // .nube {
+    //     height: 145px;
+    //     width: 200px;
+    // }
     .footer {
         padding: 1rem 1rem;
         justify-content: center;
@@ -86,5 +86,8 @@
         i {
             font-size: 18px;
         }
+    }
+    .section__cardinfomedia {
+        padding-bottom: 2rem;
     }
 }   
