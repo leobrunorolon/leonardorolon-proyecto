@@ -7,20 +7,21 @@
     grid-column-start: "tit";
     text-align: center;
     font-weight: bold;
-    color:black;
     background-size: contain;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe04lQp5AdqNBsEaf652ww7mncmHYmlxTuaA&usqp=CAU);
     border-radius: 1rem;
+    padding: 1rem 2rem;
     .boton {
         text-align: center;
         grid-column-start: 1;
         grid-column-end: 4;
     }
     button {
-        width: 100%;
         font-size: bold;
     }
-    
+    .section__grid--items {
+        border-radius: 0.5rem;
+    }
 }
 
 // metodos de pago
