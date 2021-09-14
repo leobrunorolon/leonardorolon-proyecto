@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -8,13 +7,6 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: whitesmoke;
-}
-
-.header {
-  background: #3498da;
-  background: linear-gradient(90deg, #3498da 54%, rgba(255, 255, 255, 0.7) 100%);
-  background: -moz-linear-gradient(90deg, #3498da 54%, rgba(255, 255, 255, 0.7) 100%);
-  background: -webkit-linear-gradient(90deg, #3498da 54%, rgba(255, 255, 255, 0.7) 100%);
 }
 
 main {
@@ -37,9 +29,21 @@ main {
   text-transform: uppercase;
 }
 
+.menu__estilo2 li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__estilo2 i {
+  opacity: 0;
+}
+
+.menu__estilo2 li:hover i {
+  opacity: 1;
+}
+
 .navbar__icono {
   color: whitesmoke !important;
-  padding-right: 10px;
 }
 
 /*modificacion de imagen hero*/
@@ -113,7 +117,7 @@ main {
 }
 
 .section__titulos--1 {
-  color: #B0B012;
+  color: #d8d83b;
   text-align: center;
   font-weight: bold;
   padding: 1rem 0 0 0;
@@ -130,7 +134,8 @@ main {
 }
 
 .section__titulos--container {
-  background-color: #333;
+  background-color: #266298;
+  box-shadow: 10px 10px 30px 5px rgba(12, 4, 4, 0.582);
 }
 
 .section__index--card {
@@ -282,8 +287,16 @@ main {
   padding: 2rem 0;
 }
 
+.section__carrusel--container {
+  padding-top: 2rem;
+}
+
 .section__carrusel .section__carrusel--img {
   object-fit: contain;
+}
+
+.section__grid {
+  padding-top: 2rem;
 }
 
 .section__grid--container {
@@ -293,7 +306,6 @@ main {
   grid-gap: 5px;
   grid-column-start: "tit";
   text-align: center;
-  font-weight: bold;
   background-size: contain;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe04lQp5AdqNBsEaf652ww7mncmHYmlxTuaA&usqp=CAU);
   border-radius: 1rem;
@@ -311,7 +323,7 @@ main {
 }
 
 .section__grid--container .section__grid--items {
-  border-radius: 0.5rem;
+  border-radius: 25% 10%;
 }
 
 .section__suscripciones--containerpayment {
@@ -336,7 +348,13 @@ main {
 }
 
 .section__pago {
-  padding-bottom: 1rem;
+  padding-top: 2rem;
+}
+
+.section__pago--bottom {
+  padding: 1rem 1rem;
+  display: flex;
+  justify-content: center;
 }
 
 .section__pago--payicon {
@@ -372,11 +390,31 @@ main {
 }
 
 .section__pago--form .section__contacto--file {
+  display: flex;
+  justify-content: center;
   padding-bottom: 3rem;
+}
+
+.section__pago--form .section__contacto--file input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.section__pago--form .section__contacto--file label {
+  font-size: 16px;
 }
 
 .section__pago--form .section__contacto--file i {
   font-size: 30px;
+}
+
+.section__pago--form .section__contacto--file:hover {
+  color: #d43434;
+  font-weight: bold;
 }
 
 .section__pago--form .section__contacto--button {
@@ -386,6 +424,10 @@ main {
 
 .section__pago--form .section__contacto--button .boton {
   width: 100px !important;
+}
+
+.section__contacto {
+  padding-top: 2rem;
 }
 
 .section__contacto--container {
@@ -404,7 +446,7 @@ main {
   grid-template-columns: 33% 33% 33%;
   grid-template-rows: 33% 33% 33%;
   grid-column-start: 1;
-  gap: 10px;
+  gap: 1rem;
 }
 
 /*each generacion redes sociales linea 312*/
@@ -435,116 +477,10 @@ main {
   box-shadow: 0 0 1rem whitesmoke;
 }
 
-/* for ejemplo paleta de colores*/
-.section__contacto--paleta {
-  border-radius: 1rem;
-  display: flex;
-  background-color: white;
-}
-
-.section__contacto--paleta .color {
-  height: 120px;
-  width: 8.33333% !important;
-}
-
-/*no funcina metodo col-12 para lo que quiero hacer, ya que los valores no tiene un %unico todos varias por ello varian los tamaños*/
-.color-1 {
-  width: 8.33333%;
-}
-
-.color-2 {
-  width: 16.66667%;
-}
-
-.color-3 {
-  width: 25%;
-}
-
-.color-4 {
-  width: 33.33333%;
-}
-
-.color-5 {
-  width: 41.66667%;
-}
-
-.color-6 {
-  width: 50%;
-}
-
-.color-7 {
-  width: 58.33333%;
-}
-
-.color-8 {
-  width: 66.66667%;
-}
-
-.color-9 {
-  width: 75%;
-}
-
-.color-10 {
-  width: 83.33333%;
-}
-
-.color-11 {
-  width: 91.66667%;
-}
-
-.color-12 {
-  width: 100%;
-}
-
-.color:nth-child(1) {
-  background-color: #1414ff !important;
-}
-
-.color:nth-child(2) {
-  background-color: #2929ff !important;
-}
-
-.color:nth-child(3) {
-  background-color: #3d3dff !important;
-}
-
-.color:nth-child(4) {
-  background-color: #5252ff !important;
-}
-
-.color:nth-child(5) {
-  background-color: #6666ff !important;
-}
-
-.color:nth-child(6) {
-  background-color: #7a7aff !important;
-}
-
-.color:nth-child(7) {
-  background-color: #8f8fff !important;
-}
-
-.color:nth-child(8) {
-  background-color: #a3a3ff !important;
-}
-
-.color:nth-child(9) {
-  background-color: #b8b8ff !important;
-}
-
-.color:nth-child(10) {
-  background-color: #ccccff !important;
-}
-
-.color:nth-child(11) {
-  background-color: #e0e0ff !important;
-}
-
-.color:nth-child(12) {
-  background-color: #f5f5ff !important;
-}
-
 @media (max-width: 768px) {
+  .navbar__icono {
+    padding-right: none;
+  }
   .footer {
     padding: 1rem 1rem;
     justify-content: center;
@@ -607,6 +543,9 @@ main {
   .section__suscripciones--payicon img {
     width: 100%;
   }
+  .section__pago--bottom {
+    padding: 1rem 0;
+  }
   .section__pago--formtop {
     padding-top: 1rem;
   }
@@ -620,6 +559,9 @@ main {
   }
   .section__contacto--file i {
     font-size: 18px;
+  }
+  .section__contacto--grid {
+    gap: 0.5rem;
   }
   .section__cardinfomedia {
     padding-bottom: 2rem;

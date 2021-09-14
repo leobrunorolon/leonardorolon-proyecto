@@ -35,53 +35,58 @@
 </head>
 
 <body>
-  <header class="header__gramaje">
+  <header>
     <!-- navbar -->
-    <div class="row navbar__container">
-      <div class="col-12">
-        <nav class="navbar navbar-expand-lg navbar-dark menu__estilo fixed-top">
-          <div class="container-fluid">
-            <i class="navbar__icono fas fa-cloud animate__animated animate__heartBeat animate__infinite"></i>
-            <a class="navbar-brand text-uppercase" href="./">Inicio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle active text-uppercase" href="#" id="navbarDropdownMenuLink"
-                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Jujuy
-                  </a>
-                  <ul class="dropdown-menu menu__estilo" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="jujuy.html">Comienza</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="jujuy.html#comida">Comida</a></li>
-                    <li><a class="dropdown-item" href="jujuy.html#dormir">Dormir</a></li>
-                    <li><a class="dropdown-item" href="jujuy.html#lugares">Lugares</a></li>
-                    <li><a class="dropdown-item" href="jujuy.html#galeria">Galeria</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active text-uppercase" href="promociones.html">Promociones</a>
-                <li class="nav-item">
-                  <a class="nav-link active text-uppercase" aria-current="page"
-                    href="suscripciones.html">Suscripciones</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active text-uppercase" aria-current="page" href="pago.html">Pago</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active text-uppercase" aria-current="page" href="contacto.html">Contacto</a>
-                </li>
-              </ul>
+    <div class="container-fluid">
+      <div class="row navbar__container">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg navbar-dark menu__estilo fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand text-uppercase" href="./">
+                  <i class="navbar__icono fas fa-cloud animate__animated animate__heartBeat animate__infinite"></i>
+                Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active text-uppercase" href="#" id="navbarDropdownMenuLink"
+                      role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Jujuy
+                    </a>
+                    <ul class="dropdown-menu menu__estilo menu__estilo2" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="jujuy.html">Comienza <i class="navbar__icono fas fa-cloud animate__animated animate__heartBeat animate__infinite"></i></a>
+  
+                      </li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="jujuy.html#comida">Comida <i class="navbar__icono fas fa-cloud animate__animated animate__heartBeat animate__infinite"></i></a></li>
+                      <li><a class="dropdown-item" href="jujuy.html#dormir">Dormir <i class="navbar__icono fas fa-cloud animate__animated animate__heartBeat animate__infinite"></i></a></li>
+                      <li><a class="dropdown-item" href="jujuy.html#lugares">Lugares <i class="navbar__icono fas fa-cloud animate__animated animate__heartBeat animate__infinite"></i></a></li>
+                      <li><a class="dropdown-item" href="jujuy.html#galeria">Galeria <i class="navbar__icono fas fa-cloud animate__animated animate__heartBeat animate__infinite"></i></a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-uppercase" href="promociones.html">Promociones</a>
+                  <li class="nav-item">
+                    <a class="nav-link active text-uppercase" aria-current="page"
+                      href="suscripciones.html">Suscripciones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-uppercase" aria-current="page" href="pago.html">Pago</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-uppercase" aria-current="page" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-        </nav>
+          </nav>
+        </div>
       </div>
     </div>
 
@@ -108,28 +113,28 @@
         <h1 class="section__titulos--1">Suscribite!!!</h1>
         <h2 class="section__titulos">Se parte de Jujuy tierra de colores</h2>
       </div>
-      <div class="container">
-        <div class="col-12">
+      <div class="container section__grid">
+        <div class="col-12 col-md-6 offset-md-3">
           <div class="section__grid--container">
 
-            <div class="section__grid--items tit1 tit row1 bg-warning text-white">Basico</div>
+            <div class="section__grid--items tit1 tit row1 bg-warning text-dark">Basico</div>
             <div class="section__grid--items tit2 tit row1 bg-info text-dark">Medio</div>
             <div class="section__grid--items tit3 tit row1 bg-dark text-white">Premium</div>
-            <div class="section__grid--items fot1 colm1 bg-light">2 Fotos</div>
-            <div class="section__grid--items fot2 colm2 bg-light">6 Fotos</div>
-            <div class="section__grid--items fot3 colm3 bg-light">12 Fotos</div>
-            <div class="section__grid--items per1 colm1 bg-light">1 Mes</div>
-            <div class="section__grid--items per2 colm2 bg-light">6 Meses</div>
-            <div class="section__grid--items per3 colm3 bg-light">12 Meses</div>
-            <div class="section__grid--items vid1 colm1 bg-light">Video NO</div>
-            <div class="section__grid--items vid2 colm2 bg-light">1 Video</div>
-            <div class="section__grid--items vid3 colm3 bg-light">3 Video</div>
-            <div class="section__grid--items fav1 colm1 bg-light">Favorito NO</div>
-            <div class="section__grid--items fav2 colm2 bg-light"> Favorito NO</div>
-            <div class="section__grid--items fav3 colm3 bg-light">Favorito</div>
-            <div class="section__grid--items precio1 colm1 bg-success text-white">$599</div>
-            <div class="section__grid--items precio2 colm2 bg-success text-white">$1799</div>
-            <div class="section__grid--items precio3 colm3 bg-success text-white">$2699</div>
+            <div class="section__grid--items fot1 colm1 bg-secondary text-white">2 Fotos</div>
+            <div class="section__grid--items fot2 colm2 bg-secondary text-white">6 Fotos</div>
+            <div class="section__grid--items fot3 colm3 bg-secondary text-white">12 Fotos</div>
+            <div class="section__grid--items per1 colm1 bg-secondary text-white">1 Mes</div>
+            <div class="section__grid--items per2 colm2 bg-secondary text-white">6 Meses</div>
+            <div class="section__grid--items per3 colm3 bg-secondary text-white">12 Meses</div>
+            <div class="section__grid--items vid1 colm1 bg-secondary text-white">Video NO</div>
+            <div class="section__grid--items vid2 colm2 bg-secondary text-white">1 Video</div>
+            <div class="section__grid--items vid3 colm3 bg-secondary text-white">3 Video</div>
+            <div class="section__grid--items fav1 colm1 bg-secondary text-white">Favorito NO</div>
+            <div class="section__grid--items fav2 colm2 bg-secondary text-white"> Favorito NO</div>
+            <div class="section__grid--items fav3 colm3 bg-secondary text-white">Favorito</div>
+            <div class="section__grid--items precio1 colm1 bg-warning text-dark">$599</div>
+            <div class="section__grid--items precio2 colm2 bg-info text-dark">$1799</div>
+            <div class="section__grid--items precio3 colm3 bg-dark text-white">$2699</div>
             <div class="boton">
               <a href="pago.html"><button class="btn btn-secondary">Suscribirme</button></a>
             </div>

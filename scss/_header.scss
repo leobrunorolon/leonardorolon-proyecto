@@ -12,9 +12,23 @@
     font-weight: 700;
     text-transform: uppercase;
   }
+.menu__estilo2 {
+    li {
+        display: flex;
+        justify-content: space-between;
+    }
+    i {
+        opacity: 0;
+    }
+}
+.menu__estilo2 li:hover {
+    i {
+        opacity: 1;
+    }
+}
+
 .navbar__icono {
     color: $color-primario !important;
-    padding-right: 10px;
 }
 /*modificacion de imagen hero*/
 .hero__container {

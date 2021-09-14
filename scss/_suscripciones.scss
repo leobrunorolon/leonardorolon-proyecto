@@ -1,4 +1,7 @@
 // section suscripcion grid
+.section__grid {
+    padding-top: 2rem;
+}
 .section__grid--container {
     display: grid;
     grid-template-columns: repeat(3, 2fr);
@@ -6,7 +9,6 @@
     grid-gap: 5px;
     grid-column-start: "tit";
     text-align: center;
-    font-weight: bold;
     background-size: contain;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe04lQp5AdqNBsEaf652ww7mncmHYmlxTuaA&usqp=CAU);
     border-radius: 1rem;
@@ -20,7 +22,7 @@
         font-size: bold;
     }
     .section__grid--items {
-        border-radius: 0.5rem;
+        border-radius: 25% 10%;
     }
 }
 

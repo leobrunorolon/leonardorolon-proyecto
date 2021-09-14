@@ -1,6 +1,11 @@
 // section pagos
 .section__pago {
-    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+.section__pago--bottom {
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: center;
 }
 .section__pago--payicon {
     display: flex;
@@ -28,10 +33,27 @@
         padding-bottom: 3rem;
     }
     .section__contacto--file {
+        display: flex;
+        justify-content: center;
+        input {
+            width: 0.1px;
+            height: 0.1px;
+            opacity: 0;
+            overflow: hidden;
+            position: absolute;
+            z-index: -1;
+        }
+        label {
+            font-size: 16px;
+        }
         padding-bottom: 3rem;
         i {
             font-size: 30px;
         }
+    }
+    .section__contacto--file:hover {
+        color: rgb(212, 52, 52);
+        font-weight: bold;
     }
     .section__contacto--button {
         display: flex;

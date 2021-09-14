@@ -1,5 +1,8 @@
 // contacto
 // formulario contacto
+.section__contacto {
+    padding-top: 2rem;
+}
 .section__contacto--container {
     background-color: $color-terciario;
     border-radius: 1rem;
@@ -17,7 +20,7 @@
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 33% 33% 33%;
     grid-column-start: 1;
-    gap: 10px;
+    gap: 1rem;
 }
 // each
 /*each generacion redes sociales linea 312*/
@@ -34,27 +37,4 @@
 .section__contacto--redes {
     width: 20rem;
     box-shadow: 0 0 1rem whitesmoke;
-}
-// for ejemplo
-/* for ejemplo paleta de colores*/
-.section__contacto--paleta{
-    border-radius: 1rem;
-    display: flex;
-    background-color: white;
-    .color {
-        height: 120px;
-        width: 8.33333% !important;
-        
-    }
-}
-/*no funcina metodo col-12 para lo que quiero hacer, ya que los valores no tiene un %unico todos varias por ello varian los tamaños*/
-@for $i from 1 through 12 {
-    .color-#{$i} {
-        width: 100% / 12 * $i;
-    }
-}
-@for $i from 1 through 12 {
-    .color:nth-child(#{$i}) {
-        background-color: lighten(blue, $i * 4) !important;
-    }
 }

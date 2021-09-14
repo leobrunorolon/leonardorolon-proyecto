@@ -7,6 +7,9 @@
     //     height: 145px;
     //     width: 200px;
     // }
+    .navbar__icono {
+        padding-right: none;
+    }
     .footer {
         padding: 1rem 1rem;
         justify-content: center;
@@ -73,6 +76,9 @@
             width: 100%;
         }
     }
+    .section__pago--bottom {
+        padding: 1rem 0;
+    }
     .section__pago--formtop {
         padding-top: 1rem;
     }
@@ -86,6 +92,9 @@
         i {
             font-size: 18px;
         }
+    }
+    .section__contacto--grid {
+        gap: 0.5rem;
     }
     .section__cardinfomedia {
         padding-bottom: 2rem;
