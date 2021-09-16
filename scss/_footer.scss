@@ -12,7 +12,12 @@
 }
 
 .footer__icon a {
-    font-size: 20px;
+    font-size: 25px;
     color:snow;
     text-decoration: none;
+    padding: 0 0.2rem;
+}
+.footer__icon a:hover {
+    font-weight: bold;
+    color: teal
 }
