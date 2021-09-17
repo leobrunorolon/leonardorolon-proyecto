@@ -138,26 +138,30 @@ main {
   box-shadow: 10px 10px 30px 5px rgba(12, 4, 4, 0.582);
 }
 
+.section__index {
+  padding-top: 2rem;
+}
+
 .section__index--card {
   padding-bottom: 2rem;
 }
 
 .section__card--2 {
-  background-image: url(https://us.123rf.com/450wm/denisbelitsky/denisbelitsky1609/denisbelitsky160900015/65611020-v%C3%ADa-l%C3%A1ctea-y-la-luz-de-color-rosa-en-las-monta%C3%B1as-noche-paisaje-colorido-cielo-estrellado-con-colina.jpg?ver=6);
+  background-image: url(https://cdn.pixabay.com/photo/2017/01/23/20/26/earth-2003760_960_720.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 1rem !important;
+  color: whitesmoke !important;
+  font-weight: bold;
 }
 
 .section__card--2 .card-header {
   font-size: 30px;
-  font-weight: bold;
-  color: whitesmoke;
 }
 
 .section__card--2img {
-  background-image: url(https://i.pinimg.com/550x/20/c8/66/20c866c639dcb489e21e8a7c6a089a5d.jpg);
+  background-image: url(https://ak.picdn.net/shutterstock/videos/32696686/thumb/1.jpg?ip=x480);
 }
 
 .section__card--2img a {
@@ -166,7 +170,7 @@ main {
 }
 
 .section__card--2img a:hover {
-  color: cadetblue;
+  color: #70adaf;
 }
 
 .section__video-container {
@@ -246,10 +250,6 @@ main {
   color: white;
 }
 
-.section__formulario--estrella {
-  color: #F6F20D;
-}
-
 .section__lugares {
   margin: 2rem 0;
 }
@@ -260,9 +260,18 @@ main {
   justify-content: space-around;
 }
 
+.section__galeria--img {
+  background-color: teal !important;
+  color: whitesmoke;
+}
+
 .section__galeria--img img {
   object-fit: contain;
   height: 190px;
+}
+
+.section__formulario--estrella {
+  color: #F6F20D;
 }
 
 .section__cardinfo {
@@ -299,6 +308,10 @@ main {
 
 .section__carrusel .section__carrusel--img {
   object-fit: contain;
+}
+
+.section__promociones--voucher {
+  padding-top: 2rem;
 }
 
 .section__grid {
@@ -419,7 +432,7 @@ main {
 }
 
 .section__pago--form .section__contacto--file:hover {
-  color: #d43434;
+  color: #266298;
   font-weight: bold;
 }
 
@@ -522,6 +535,9 @@ main {
   }
   .section__voucher .section__voucher--card {
     padding-bottom: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
   }
   .section__promociones .section__promociones--card {
     padding-bottom: 2rem !important;

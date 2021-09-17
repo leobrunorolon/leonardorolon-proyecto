@@ -20,9 +20,6 @@
     }
 }
 
-.section__formulario--estrella {
-    color: #F6F20D;
-}
 .section__lugares {
     margin: 2rem 0;
 }
@@ -31,9 +28,16 @@
     display: flex;
     justify-content: space-around;
 }
-.section__galeria--img img{
-    object-fit: contain;
-    height: 190px;
+.section__galeria--img{
+    background-color: $fondo-secundario !important;
+    color: $color-primario;
+    img{
+        object-fit: contain;
+        height: 190px;
+    }
+}
+.section__formulario--estrella {
+    color: #F6F20D;
 }
 .section__cardinfo {
     padding-top: 2rem;

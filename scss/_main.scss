@@ -26,29 +26,32 @@
     box-shadow: 10px 10px 30px 5px rgba(12, 4, 4, 0.582);
 }
 // index card
+.section__index {
+    padding-top: 2rem;
+}
 .section__index--card {
     padding-bottom: 2rem;
 }
 .section__card--2{
-    background-image: url(https://us.123rf.com/450wm/denisbelitsky/denisbelitsky1609/denisbelitsky160900015/65611020-v%C3%ADa-l%C3%A1ctea-y-la-luz-de-color-rosa-en-las-monta%C3%B1as-noche-paisaje-colorido-cielo-estrellado-con-colina.jpg?ver=6);
+    background-image: url(https://cdn.pixabay.com/photo/2017/01/23/20/26/earth-2003760_960_720.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 1rem !important;
+    color: $color-primario !important;
+    font-weight: bold;
     .card-header {
         font-size: 30px;
-        font-weight: bold;
-        color: $color-primario;
     }
 }
 .section__card--2img {
-    background-image: url(https://i.pinimg.com/550x/20/c8/66/20c866c639dcb489e21e8a7c6a089a5d.jpg);
+    background-image: url(https://ak.picdn.net/shutterstock/videos/32696686/thumb/1.jpg?ip=x480);
         a{
             text-decoration: none;
             color: $color-primario;
         }
     a:hover {
-        color: cadetblue;
+        color: rgb(112, 173, 175);
     }
 }
 .section__video-container {
