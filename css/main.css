@@ -261,7 +261,7 @@ main {
 }
 
 .section__galeria--img {
-  background-color: teal !important;
+  background-color: #333 !important;
   color: whitesmoke;
 }
 
@@ -312,6 +312,16 @@ main {
 
 .section__promociones--voucher {
   padding-top: 2rem;
+}
+
+.section__promociones--link a {
+  text-decoration: none;
+  color: #3398DA;
+}
+
+.section__promociones--link a:hover {
+  font-weight: bold;
+  color: teal;
 }
 
 .section__grid {

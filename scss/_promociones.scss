@@ -11,3 +11,13 @@
 .section__promociones--voucher {
     padding-top: 2rem;
 }
+.section__promociones--link {
+    a {
+        text-decoration: none;
+        color: $fondo-primario;
+    }
+    a:hover {
+        font-weight: bold;
+        color: $fondo-secundario;
+    }
+}
